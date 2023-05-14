@@ -11532,13 +11532,13 @@ textarea.form-control {
 }
 @media(max-width:670px){
   .header .overlay .title{
-    font-size: 2rem !important;
+    font-size: 25px !important;
   }
   
 }
 @media(min-width:670px){
   .header .overlay .title{
-    font-size: 2.4rem !important;
+    font-size: 2.9rem !important;
   }
   
 }
@@ -11814,4 +11814,46 @@ textarea.form-control {
   padding-top: 1.1rem !important;
   padding-bottom: 2rem !important;
 
+}
+.link-card div{
+  height: 70vh !important;
+  background: none !important;
+
+}
+.link-card .card{
+  box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.1);
+
+}
+.link-card .card button:hover{
+  background-color: #042129 !important;
+color: #fff !important;
+box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.1);
+
+}
+.link-card img{
+  background-color: none !important;
+
+}
+
+/* footer logo */
+.logo-link-image{
+  text-align: center;
+  margin:0;
+  padding: 1.8rem 2rem;
+  background-color: #042129;
+  opacity: 0.6;
+}
+.logo-link-image .d-flex-item{
+  display: flex;
+  justify-content: center;
+}
+.logo-link-image .d-flex-item .image-logo{
+margin: 0 .4rem;
+}
+.logo-link-image .d-flex-item .image-logo img{
+  width: 50px;
+}
+.logo-link-image .d-flex-item .image-logo img:hover{
+  width: 40px;
+  transition: 0.5s all ease-in-out;
 }
