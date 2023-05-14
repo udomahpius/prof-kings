@@ -11510,7 +11510,7 @@ textarea.form-control {
 .header.components-header {
   max-height: 450px !important;
   height: 450px;
-  dispaly: none;
+  display: none;
   background-position: center -140px;
 }
 
@@ -11529,6 +11529,18 @@ textarea.form-control {
   font-weight: bold;
   opacity: .8;
   color: #444;
+}
+@media(max-width:670px){
+  .header .overlay .title{
+    font-size: 2rem !important;
+  }
+  
+}
+@media(min-width:670px){
+  .header .overlay .title{
+    font-size: 2.4rem !important;
+  }
+  
 }
 
 .header-mini {
@@ -11637,7 +11649,7 @@ textarea.form-control {
 
 .section.has-img-bg {
   position: relative;
-  background: url(../imgs/section.jpg) no-repeat center top fixed;
+  background: url(../imgs/home-bg.jpg) no-repeat center top fixed;
   background-size: cover;
   color: #fff;
 }
@@ -11761,4 +11773,45 @@ textarea.form-control {
   left: 50%;
   opacity: 1;
   visibility: visible;
+}
+
+.content-item{
+  padding: 3rem .4rem .1rem .4rem !important;
+  width: 100% !important;
+  height: 34vh !important;
+  text-align: center;
+  border-radius: 30px;
+  background-color:#bfbfbf;
+}
+.content-item:hover{
+  box-shadow: 0 2px 50px 0 #f53900;
+
+}
+@media(min-width:650px){
+  #about .image img{
+    width: 320px !important;
+    border-radius: 90px;
+  }
+  
+}
+.card-container div{
+  margin-bottom: 1.2rem !important;
+  height: 30vh !important;
+  padding-top: 1.1rem !important;
+  padding-bottom: 2rem !important;
+
+}
+.card-container-publication div{
+  margin-bottom: 1.2rem !important;
+  height: 50vh !important;
+  padding-top: 1.1rem !important;
+  padding-bottom: 2rem !important;
+  /* text-align: center !important; */
+
+}
+.service-container div{
+  height: 40vh !important;
+  padding-top: 1.1rem !important;
+  padding-bottom: 2rem !important;
+
 }
